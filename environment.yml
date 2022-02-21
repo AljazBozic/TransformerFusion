@@ -1,0 +1,14 @@
+name: tf
+channels:
+  - pytorch
+  - defaults
+dependencies:
+  - pip=21.2.4=py38h06a4308_0
+  - python=3.8.12=h12debd9_0
+  - pytorch=1.10.2=py3.8_cuda11.3_cudnn8.2.0_0
+  - torchaudio=0.10.2=py38_cu113
+  - torchvision=0.11.3=py38_cu113
+  - tqdm
+  - pybind11
+  - pip:
+    - open3d
